@@ -1,0 +1,21 @@
+[gpg]
+	format = ssh
+[user]
+	name = danghr
+	email = danghr@outlook.com
+	signingkey = /Users/danghr/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = /Users/danghr/.gitignore_global
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[oh-my-zsh]
+	hide-dirty = 1
+[color]
+    ui = true
+[alias]
+    graph = log --all --graph --decorate --oneline
