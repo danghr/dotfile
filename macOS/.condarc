@@ -1,0 +1,4 @@
+# Disable conda mark at the beginning of command
+# as it is already shown in ys-conda theme of oh-my-zsh
+changeps1: false
+
