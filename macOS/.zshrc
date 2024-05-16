@@ -120,11 +120,19 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# Alias for yt-dlp
-alias ytdlp="yt-dlp --cookies-from-browser safari -f bv"
-
 PATH="/Users/danghr/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/Users/danghr/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/Users/danghr/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/Users/danghr/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/danghr/perl5"; export PERL_MM_OPT;
+
+# YSYX Configuration
+# YSYX_ROOT=/Users/danghr/YSYX
+# export PATH=$PATH:$YSYX_ROOT/verilator/bin
+# export VERILATOR_ROOT=$YSYX_ROOT/verilator
+# export VERILATOR_INC_DIR="$VERILATOR_ROOT/include"
+# export NPC_HOME=$YSYX_ROOT/ysyx-workbench/npc
+# export NEMU_HOME=$YSYX_ROOT/ysyx-workbench/NEMU
+# export AM_HOME=$YSYX_ROOT/ysyx-workbench/abstract-machine
+# export NVBOARD_HOME=$YSYX_ROOT/ysyx-workbench/nvboard
+
