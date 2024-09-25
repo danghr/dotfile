@@ -39,10 +39,3 @@ export HOMEBREW_GITHUB_API_TOKEN=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
 
 # Use Nano installed by Homebrew
 alias nano=/opt/homebrew/bin/nano
-
-# Use Ruby installed by Homebrew
-# Install ruby-install and use it to install ruby
-HOMEBREW_RUBY_VERSION=3.3.1
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-$HOMEBREW_RUBY_VERSION
